@@ -18,7 +18,7 @@ RULES:
 """
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash-001",
+    model_name="gemini-2.0-flash-exp",
     system_instruction=SYSTEM_PROMPT
 )
 
